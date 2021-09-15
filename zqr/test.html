@@ -43,6 +43,11 @@
             margin-top: 25px;
             width: 750px;
         }
+        
+        textarea {
+            margin-top: 15px;
+            margin-left: 2em;
+        }
     </style>
 </head>
 
@@ -73,7 +78,7 @@
             </td>
         </tr>
     </table>
-
+    <!-- 填空 -->
     <h3>一、填空题（每空5分，共20分）</h3>
     <p>1. UML的中文全称是： <input type="text" value="统一建模语言">
     </p>
@@ -164,6 +169,23 @@
             <label for="D5">(D) 方法(Function)</label>
         </li>
     </ul>
+    <!-- 判断 -->
+    <h3>四、判断题（每题10分，共20分）</h3>
+    <p>1. 用例图只是用于和客户交流和沟通的,用于确定需求。
+        <input type="radio" name="judge1" id="true1"><label for="true1">&radic;</label>
+        <input type="radio" name="judge1" id="false1" checked="checked"><label for="false1">&times;</label>
+    </p>
+    <p>2. 在状态图中,终止状态在一个状态图中允许有任意多个。
+        <input type="radio" name="judge2" id="true2" checked="checked"><label for="true2">&radic;</label>
+        <input type="radio" name="judge2" id="false2"><label for="false2">&times;</label>
+    </p>
+
+    <!-- 简答 -->
+    <h3>五、简答题（每题20分，共20分）</h3>
+    <p>1. 简述什么是模型以及模型的表现形式？</p>
+    <textarea name="" id="" cols="88" rows="10">模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体，可以是某种图形；或者是一种数学表达式。</textarea><br><br>
+    <!-- 计算分数 -->
+    <button>计算分数</button><br><br><br><br>
 </body>
 
-</html>·
+</html>
